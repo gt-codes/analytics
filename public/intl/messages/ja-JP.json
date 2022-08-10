@@ -29,12 +29,6 @@
       "value": "すべて表示"
     }
   ],
-  "label.all-events": [
-    {
-      "type": 0,
-      "value": "All events"
-    }
-  ],
   "label.all-time": [
     {
       "type": 0,
@@ -247,6 +241,12 @@
       "value": "新しいパスワード"
     }
   ],
+  "label.none": [
+    {
+      "type": 0,
+      "value": "None"
+    }
+  ],
   "label.owner": [
     {
       "type": 0,
@@ -441,6 +441,12 @@
     {
       "type": 0,
       "value": "関連するすべてのデータも削除されます。"
+    }
+  ],
+  "message.edit-dashboard": [
+    {
+      "type": 0,
+      "value": "Edit dashboard"
     }
   ],
   "message.failure": [
@@ -703,12 +709,6 @@
       "value": "パスまで"
     }
   ],
-  "metrics.filter.domain-only": [
-    {
-      "type": 0,
-      "value": "ドメインのみ"
-    }
-  ],
   "metrics.filter.raw": [
     {
       "type": 0,
@@ -739,10 +739,22 @@
       "value": "ページ"
     }
   ],
+  "metrics.query-parameters": [
+    {
+      "type": 0,
+      "value": "Query parameters"
+    }
+  ],
   "metrics.referrers": [
     {
       "type": 0,
       "value": "リファラー"
+    }
+  ],
+  "metrics.screens": [
+    {
+      "type": 0,
+      "value": "Screens"
     }
   ],
   "metrics.unique-visitors": [

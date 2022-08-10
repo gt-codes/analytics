@@ -29,12 +29,6 @@
       "value": "تمام"
     }
   ],
-  "label.all-events": [
-    {
-      "type": 0,
-      "value": "تمام واقعات"
-    }
-  ],
   "label.all-time": [
     {
       "type": 0,
@@ -249,6 +243,12 @@
     {
       "type": 0,
       "value": "نیا پاس ورڈ"
+    }
+  ],
+  "label.none": [
+    {
+      "type": 0,
+      "value": "None"
     }
   ],
   "label.owner": [
@@ -473,6 +473,12 @@
     {
       "type": 0,
       "value": "تمام متعلقہ ڈیٹا بھی حذف کر دیا جائے گا۔"
+    }
+  ],
+  "message.edit-dashboard": [
+    {
+      "type": 0,
+      "value": "Edit dashboard"
     }
   ],
   "message.failure": [
@@ -731,12 +737,6 @@
       "value": "مشترکہ"
     }
   ],
-  "metrics.filter.domain-only": [
-    {
-      "type": 0,
-      "value": "صرف ڈومین"
-    }
-  ],
   "metrics.filter.raw": [
     {
       "type": 0,
@@ -767,10 +767,22 @@
       "value": "صفحات"
     }
   ],
+  "metrics.query-parameters": [
+    {
+      "type": 0,
+      "value": "Query parameters"
+    }
+  ],
   "metrics.referrers": [
     {
       "type": 0,
       "value": "بھیجنے والے"
+    }
+  ],
+  "metrics.screens": [
+    {
+      "type": 0,
+      "value": "Screens"
     }
   ],
   "metrics.unique-visitors": [

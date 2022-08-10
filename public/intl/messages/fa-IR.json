@@ -29,16 +29,10 @@
       "value": "همه"
     }
   ],
-  "label.all-events": [
-    {
-      "type": 0,
-      "value": "همه‌ی رویدادها"
-    }
-  ],
   "label.all-time": [
     {
       "type": 0,
-      "value": "All time"
+      "value": "همه زمان"
     }
   ],
   "label.all-websites": [
@@ -176,7 +170,7 @@
   "label.language": [
     {
       "type": 0,
-      "value": "Language"
+      "value": "زبان"
     }
   ],
   "label.last-days": [
@@ -190,7 +184,7 @@
     },
     {
       "type": 0,
-      "value": " روز"
+      "value": " روز گذشته"
     }
   ],
   "label.last-hours": [
@@ -204,7 +198,7 @@
     },
     {
       "type": 0,
-      "value": " ساعت"
+      "value": " ساعت گذشته"
     }
   ],
   "label.logged-in-as": [
@@ -247,10 +241,16 @@
       "value": "رمز جدید"
     }
   ],
+  "label.none": [
+    {
+      "type": 0,
+      "value": "None"
+    }
+  ],
   "label.owner": [
     {
       "type": 0,
-      "value": "Owner"
+      "value": "ایجاد شده توسط"
     }
   ],
   "label.password": [
@@ -304,7 +304,7 @@
   "label.reset-website": [
     {
       "type": 0,
-      "value": "Reset statistics"
+      "value": "بازنشانی آمار"
     }
   ],
   "label.save": [
@@ -334,7 +334,7 @@
   "label.theme": [
     {
       "type": 0,
-      "value": "Theme"
+      "value": "تم"
     }
   ],
   "label.this-month": [
@@ -448,7 +448,7 @@
   "message.confirm-reset": [
     {
       "type": 0,
-      "value": "Are your sure you want to reset "
+      "value": "آیا از بازنشانی آمار "
     },
     {
       "type": 1,
@@ -456,7 +456,7 @@
     },
     {
       "type": 0,
-      "value": "'s statistics?"
+      "value": " مطمئن هستید?"
     }
   ],
   "message.copied": [
@@ -469,6 +469,12 @@
     {
       "type": 0,
       "value": "همه‌ی داده‌های مرتبط هم حذف خواهد شد."
+    }
+  ],
+  "message.edit-dashboard": [
+    {
+      "type": 0,
+      "value": "Edit dashboard"
     }
   ],
   "message.failure": [
@@ -580,7 +586,7 @@
   "message.reset-warning": [
     {
       "type": 0,
-      "value": "All statistics for this website will be deleted, but your tracking code will remain intact."
+      "value": "تمامی آمارهای این وب‌سایت حذف خواهد شد اما tracking code بدون تغییر باقی می‌ماند."
     }
   ],
   "message.save-success": [
@@ -715,12 +721,6 @@
       "value": "ترکیب شده"
     }
   ],
-  "metrics.filter.domain-only": [
-    {
-      "type": 0,
-      "value": "فقط دامنه"
-    }
-  ],
   "metrics.filter.raw": [
     {
       "type": 0,
@@ -730,7 +730,7 @@
   "metrics.languages": [
     {
       "type": 0,
-      "value": "Languages"
+      "value": "زبان‌ها"
     }
   ],
   "metrics.operating-systems": [
@@ -751,10 +751,22 @@
       "value": "صفحه‌ها"
     }
   ],
+  "metrics.query-parameters": [
+    {
+      "type": 0,
+      "value": "Query parameters"
+    }
+  ],
   "metrics.referrers": [
     {
       "type": 0,
       "value": "ارجاع دهندگان"
+    }
+  ],
+  "metrics.screens": [
+    {
+      "type": 0,
+      "value": "Screens"
     }
   ],
   "metrics.unique-visitors": [

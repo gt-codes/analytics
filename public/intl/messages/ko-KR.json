@@ -29,12 +29,6 @@
       "value": "전체"
     }
   ],
-  "label.all-events": [
-    {
-      "type": 0,
-      "value": "모든 이벤트"
-    }
-  ],
   "label.all-time": [
     {
       "type": 0,
@@ -247,6 +241,12 @@
       "value": "새 비밀번호"
     }
   ],
+  "label.none": [
+    {
+      "type": 0,
+      "value": "None"
+    }
+  ],
   "label.owner": [
     {
       "type": 0,
@@ -441,6 +441,12 @@
     {
       "type": 0,
       "value": "관련된 모든 데이터도 삭제됩니다."
+    }
+  ],
+  "message.edit-dashboard": [
+    {
+      "type": 0,
+      "value": "Edit dashboard"
     }
   ],
   "message.failure": [
@@ -703,12 +709,6 @@
       "value": "합쳐서 보기"
     }
   ],
-  "metrics.filter.domain-only": [
-    {
-      "type": 0,
-      "value": "도메인만"
-    }
-  ],
   "metrics.filter.raw": [
     {
       "type": 0,
@@ -739,10 +739,22 @@
       "value": "페이지"
     }
   ],
+  "metrics.query-parameters": [
+    {
+      "type": 0,
+      "value": "Query parameters"
+    }
+  ],
   "metrics.referrers": [
     {
       "type": 0,
       "value": "리퍼러"
+    }
+  ],
+  "metrics.screens": [
+    {
+      "type": 0,
+      "value": "Screens"
     }
   ],
   "metrics.unique-visitors": [

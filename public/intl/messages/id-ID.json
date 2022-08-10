@@ -29,16 +29,10 @@
       "value": "Semua"
     }
   ],
-  "label.all-events": [
-    {
-      "type": 0,
-      "value": "Semua peristiwa"
-    }
-  ],
   "label.all-time": [
     {
       "type": 0,
-      "value": "All time"
+      "value": "Semua waktu"
     }
   ],
   "label.all-websites": [
@@ -176,7 +170,7 @@
   "label.language": [
     {
       "type": 0,
-      "value": "Language"
+      "value": "Bahasa"
     }
   ],
   "label.last-days": [
@@ -239,10 +233,16 @@
       "value": "Kata sandi baru"
     }
   ],
+  "label.none": [
+    {
+      "type": 0,
+      "value": "None"
+    }
+  ],
   "label.owner": [
     {
       "type": 0,
-      "value": "Owner"
+      "value": "Pemilik"
     }
   ],
   "label.password": [
@@ -326,7 +326,7 @@
   "label.theme": [
     {
       "type": 0,
-      "value": "Theme"
+      "value": "Tema"
     }
   ],
   "label.this-month": [
@@ -416,7 +416,7 @@
   "message.confirm-reset": [
     {
       "type": 0,
-      "value": "Are your sure you want to reset "
+      "value": "Anda yakin ingin mengatur ulang statistik "
     },
     {
       "type": 1,
@@ -424,7 +424,7 @@
     },
     {
       "type": 0,
-      "value": "'s statistics?"
+      "value": "?"
     }
   ],
   "message.copied": [
@@ -437,6 +437,12 @@
     {
       "type": 0,
       "value": "Semua data terkait juga akan dihapus."
+    }
+  ],
+  "message.edit-dashboard": [
+    {
+      "type": 0,
+      "value": "Edit dashboard"
     }
   ],
   "message.failure": [
@@ -574,7 +580,7 @@
   "message.toggle-charts": [
     {
       "type": 0,
-      "value": "Toggle charts"
+      "value": "Buka grafik"
     }
   ],
   "message.track-stats": [
@@ -596,7 +602,7 @@
     },
     {
       "type": 0,
-      "value": " situs web anda."
+      "value": " situs web nda."
     }
   ],
   "message.type-delete": [
@@ -699,12 +705,6 @@
       "value": "Gabungan"
     }
   ],
-  "metrics.filter.domain-only": [
-    {
-      "type": 0,
-      "value": "Hanya domain"
-    }
-  ],
   "metrics.filter.raw": [
     {
       "type": 0,
@@ -714,7 +714,7 @@
   "metrics.languages": [
     {
       "type": 0,
-      "value": "Languages"
+      "value": "Bahasa"
     }
   ],
   "metrics.operating-systems": [
@@ -735,10 +735,22 @@
       "value": "Halaman"
     }
   ],
+  "metrics.query-parameters": [
+    {
+      "type": 0,
+      "value": "Query parameters"
+    }
+  ],
   "metrics.referrers": [
     {
       "type": 0,
       "value": "Perujuk"
+    }
+  ],
+  "metrics.screens": [
+    {
+      "type": 0,
+      "value": "Layar"
     }
   ],
   "metrics.unique-visitors": [

@@ -29,16 +29,10 @@
       "value": "Alles"
     }
   ],
-  "label.all-events": [
-    {
-      "type": 0,
-      "value": "Alle gebeurtenissen"
-    }
-  ],
   "label.all-time": [
     {
       "type": 0,
-      "value": "All time"
+      "value": "Onbeperkt"
     }
   ],
   "label.all-websites": [
@@ -176,7 +170,7 @@
   "label.language": [
     {
       "type": 0,
-      "value": "Language"
+      "value": "Taal"
     }
   ],
   "label.last-days": [
@@ -247,10 +241,16 @@
       "value": "Nieuw wachtwoord"
     }
   ],
+  "label.none": [
+    {
+      "type": 0,
+      "value": "Geen"
+    }
+  ],
   "label.owner": [
     {
       "type": 0,
-      "value": "Owner"
+      "value": "Eigenaar"
     }
   ],
   "label.password": [
@@ -304,7 +304,7 @@
   "label.reset-website": [
     {
       "type": 0,
-      "value": "Reset statistics"
+      "value": "Statistieken opnieuw instellen"
     }
   ],
   "label.save": [
@@ -334,7 +334,7 @@
   "label.theme": [
     {
       "type": 0,
-      "value": "Theme"
+      "value": "Thema"
     }
   ],
   "label.this-month": [
@@ -448,7 +448,7 @@
   "message.confirm-reset": [
     {
       "type": 0,
-      "value": "Are your sure you want to reset "
+      "value": "Weet je zeker dat je de statistieken van "
     },
     {
       "type": 1,
@@ -456,7 +456,7 @@
     },
     {
       "type": 0,
-      "value": "'s statistics?"
+      "value": " opnieuw wilt instellen?"
     }
   ],
   "message.copied": [
@@ -469,6 +469,12 @@
     {
       "type": 0,
       "value": "Alle verwante gegezens zullen ook verwijderd worden."
+    }
+  ],
+  "message.edit-dashboard": [
+    {
+      "type": 0,
+      "value": "Edit dashboard"
     }
   ],
   "message.failure": [
@@ -580,7 +586,7 @@
   "message.reset-warning": [
     {
       "type": 0,
-      "value": "All statistics for this website will be deleted, but your tracking code will remain intact."
+      "value": "Alle bijhorende statistieken van deze website worden verwijderd, maar jouw volgcode blijft gelden."
     }
   ],
   "message.save-success": [
@@ -606,7 +612,7 @@
   "message.toggle-charts": [
     {
       "type": 0,
-      "value": "Toggle charts"
+      "value": "Grafieken tonen/verbergen"
     }
   ],
   "message.track-stats": [
@@ -731,12 +737,6 @@
       "value": "Gecombineerd"
     }
   ],
-  "metrics.filter.domain-only": [
-    {
-      "type": 0,
-      "value": "Alleen domein"
-    }
-  ],
   "metrics.filter.raw": [
     {
       "type": 0,
@@ -752,7 +752,7 @@
   "metrics.operating-systems": [
     {
       "type": 0,
-      "value": "Besturingssysteem"
+      "value": "Besturingssystemen"
     }
   ],
   "metrics.page-views": [
@@ -767,10 +767,22 @@
       "value": "Pagina's"
     }
   ],
+  "metrics.query-parameters": [
+    {
+      "type": 0,
+      "value": "Query parameters"
+    }
+  ],
   "metrics.referrers": [
     {
       "type": 0,
       "value": "Verwijzers"
+    }
+  ],
+  "metrics.screens": [
+    {
+      "type": 0,
+      "value": "Schermen"
     }
   ],
   "metrics.unique-visitors": [

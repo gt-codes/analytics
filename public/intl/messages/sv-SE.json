@@ -29,12 +29,6 @@
       "value": "Alla"
     }
   ],
-  "label.all-events": [
-    {
-      "type": 0,
-      "value": "Alla händelser"
-    }
-  ],
   "label.all-time": [
     {
       "type": 0,
@@ -245,6 +239,12 @@
     {
       "type": 0,
       "value": "Nytt lösenord"
+    }
+  ],
+  "label.none": [
+    {
+      "type": 0,
+      "value": "None"
     }
   ],
   "label.owner": [
@@ -473,6 +473,12 @@
     {
       "type": 0,
       "value": "All tillhörande data kommer också raderas."
+    }
+  ],
+  "message.edit-dashboard": [
+    {
+      "type": 0,
+      "value": "Edit dashboard"
     }
   ],
   "message.failure": [
@@ -735,12 +741,6 @@
       "value": "Kombinerade"
     }
   ],
-  "metrics.filter.domain-only": [
-    {
-      "type": 0,
-      "value": "Endast domän"
-    }
-  ],
   "metrics.filter.raw": [
     {
       "type": 0,
@@ -771,10 +771,22 @@
       "value": "Sidor"
     }
   ],
+  "metrics.query-parameters": [
+    {
+      "type": 0,
+      "value": "Query parameters"
+    }
+  ],
   "metrics.referrers": [
     {
       "type": 0,
       "value": "Hänvisare"
+    }
+  ],
+  "metrics.screens": [
+    {
+      "type": 0,
+      "value": "Screens"
     }
   ],
   "metrics.unique-visitors": [
