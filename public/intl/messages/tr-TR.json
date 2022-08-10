@@ -29,12 +29,6 @@
       "value": "Tümü"
     }
   ],
-  "label.all-events": [
-    {
-      "type": 0,
-      "value": "All events"
-    }
-  ],
   "label.all-time": [
     {
       "type": 0,
@@ -247,6 +241,12 @@
       "value": "Yeni parola"
     }
   ],
+  "label.none": [
+    {
+      "type": 0,
+      "value": "None"
+    }
+  ],
   "label.owner": [
     {
       "type": 0,
@@ -441,6 +441,12 @@
     {
       "type": 0,
       "value": "İlişkili tüm veriler de  silinecektir."
+    }
+  ],
+  "message.edit-dashboard": [
+    {
+      "type": 0,
+      "value": "Edit dashboard"
     }
   ],
   "message.failure": [
@@ -695,12 +701,6 @@
       "value": "Birleşik"
     }
   ],
-  "metrics.filter.domain-only": [
-    {
-      "type": 0,
-      "value": "Yalnızca alan adı"
-    }
-  ],
   "metrics.filter.raw": [
     {
       "type": 0,
@@ -731,10 +731,22 @@
       "value": "Sayfalar"
     }
   ],
+  "metrics.query-parameters": [
+    {
+      "type": 0,
+      "value": "Query parameters"
+    }
+  ],
   "metrics.referrers": [
     {
       "type": 0,
       "value": "Yönlendirenler"
+    }
+  ],
+  "metrics.screens": [
+    {
+      "type": 0,
+      "value": "Ekranlar"
     }
   ],
   "metrics.unique-visitors": [

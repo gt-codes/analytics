@@ -29,12 +29,6 @@
       "value": "Все"
     }
   ],
-  "label.all-events": [
-    {
-      "type": 0,
-      "value": "Все события"
-    }
-  ],
   "label.all-time": [
     {
       "type": 0,
@@ -247,6 +241,12 @@
       "value": "Новый пароль"
     }
   ],
+  "label.none": [
+    {
+      "type": 0,
+      "value": "None"
+    }
+  ],
   "label.owner": [
     {
       "type": 0,
@@ -445,6 +445,12 @@
     {
       "type": 0,
       "value": "Все связанные данные будут также удалены."
+    }
+  ],
+  "message.edit-dashboard": [
+    {
+      "type": 0,
+      "value": "Edit dashboard"
     }
   ],
   "message.failure": [
@@ -703,12 +709,6 @@
       "value": "Объединенные"
     }
   ],
-  "metrics.filter.domain-only": [
-    {
-      "type": 0,
-      "value": "Только домен"
-    }
-  ],
   "metrics.filter.raw": [
     {
       "type": 0,
@@ -739,10 +739,22 @@
       "value": "Страницы"
     }
   ],
+  "metrics.query-parameters": [
+    {
+      "type": 0,
+      "value": "Query parameters"
+    }
+  ],
   "metrics.referrers": [
     {
       "type": 0,
       "value": "Источники"
+    }
+  ],
+  "metrics.screens": [
+    {
+      "type": 0,
+      "value": "Screens"
     }
   ],
   "metrics.unique-visitors": [

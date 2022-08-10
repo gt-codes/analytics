@@ -29,12 +29,6 @@
       "value": "所有"
     }
   ],
-  "label.all-events": [
-    {
-      "type": 0,
-      "value": "所有事件"
-    }
-  ],
   "label.all-time": [
     {
       "type": 0,
@@ -247,6 +241,12 @@
       "value": "新密码"
     }
   ],
+  "label.none": [
+    {
+      "type": 0,
+      "value": "无"
+    }
+  ],
   "label.owner": [
     {
       "type": 0,
@@ -449,6 +449,12 @@
     {
       "type": 0,
       "value": "所有相关数据将会被删除。"
+    }
+  ],
+  "message.edit-dashboard": [
+    {
+      "type": 0,
+      "value": "Edit dashboard"
     }
   ],
   "message.failure": [
@@ -719,12 +725,6 @@
       "value": "总和"
     }
   ],
-  "metrics.filter.domain-only": [
-    {
-      "type": 0,
-      "value": "只看域名"
-    }
-  ],
   "metrics.filter.raw": [
     {
       "type": 0,
@@ -734,7 +734,7 @@
   "metrics.languages": [
     {
       "type": 0,
-      "value": "Languages"
+      "value": "语言"
     }
   ],
   "metrics.operating-systems": [
@@ -755,10 +755,22 @@
       "value": "网页"
     }
   ],
+  "metrics.query-parameters": [
+    {
+      "type": 0,
+      "value": "Query parameters"
+    }
+  ],
   "metrics.referrers": [
     {
       "type": 0,
       "value": "来源域名"
+    }
+  ],
+  "metrics.screens": [
+    {
+      "type": 0,
+      "value": "屏幕尺寸"
     }
   ],
   "metrics.unique-visitors": [

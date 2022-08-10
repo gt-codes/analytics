@@ -29,12 +29,6 @@
       "value": "Semua"
     }
   ],
-  "label.all-events": [
-    {
-      "type": 0,
-      "value": "Semua peristiwa"
-    }
-  ],
   "label.all-time": [
     {
       "type": 0,
@@ -237,6 +231,12 @@
     {
       "type": 0,
       "value": "Kata laluan baru"
+    }
+  ],
+  "label.none": [
+    {
+      "type": 0,
+      "value": "None"
     }
   ],
   "label.owner": [
@@ -461,6 +461,12 @@
     {
       "type": 0,
       "value": "Semua data yang berkaitan juga akan dihapuskan."
+    }
+  ],
+  "message.edit-dashboard": [
+    {
+      "type": 0,
+      "value": "Edit dashboard"
     }
   ],
   "message.failure": [
@@ -723,12 +729,6 @@
       "value": "Digabungkan"
     }
   ],
-  "metrics.filter.domain-only": [
-    {
-      "type": 0,
-      "value": "Domain sahaja"
-    }
-  ],
   "metrics.filter.raw": [
     {
       "type": 0,
@@ -759,10 +759,22 @@
       "value": "Halaman"
     }
   ],
+  "metrics.query-parameters": [
+    {
+      "type": 0,
+      "value": "Query parameters"
+    }
+  ],
   "metrics.referrers": [
     {
       "type": 0,
       "value": "Perujuk"
+    }
+  ],
+  "metrics.screens": [
+    {
+      "type": 0,
+      "value": "Screens"
     }
   ],
   "metrics.unique-visitors": [

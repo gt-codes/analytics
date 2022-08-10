@@ -29,12 +29,6 @@
       "value": "所有"
     }
   ],
-  "label.all-events": [
-    {
-      "type": 0,
-      "value": "所有事件"
-    }
-  ],
   "label.all-time": [
     {
       "type": 0,
@@ -247,10 +241,16 @@
       "value": "新密碼"
     }
   ],
+  "label.none": [
+    {
+      "type": 0,
+      "value": "無"
+    }
+  ],
   "label.owner": [
     {
       "type": 0,
-      "value": "Owner"
+      "value": "擁有者"
     }
   ],
   "label.password": [
@@ -334,7 +334,7 @@
   "label.theme": [
     {
       "type": 0,
-      "value": "Theme"
+      "value": "主題"
     }
   ],
   "label.this-month": [
@@ -449,6 +449,12 @@
     {
       "type": 0,
       "value": "所有相關數據將會被刪除。"
+    }
+  ],
+  "message.edit-dashboard": [
+    {
+      "type": 0,
+      "value": "Edit dashboard"
     }
   ],
   "message.failure": [
@@ -590,7 +596,7 @@
   "message.toggle-charts": [
     {
       "type": 0,
-      "value": "Toggle charts"
+      "value": "切換圖表"
     }
   ],
   "message.track-stats": [
@@ -715,12 +721,6 @@
       "value": "總和"
     }
   ],
-  "metrics.filter.domain-only": [
-    {
-      "type": 0,
-      "value": "僅域名"
-    }
-  ],
   "metrics.filter.raw": [
     {
       "type": 0,
@@ -730,13 +730,13 @@
   "metrics.languages": [
     {
       "type": 0,
-      "value": "Languages"
+      "value": "語言"
     }
   ],
   "metrics.operating-systems": [
     {
       "type": 0,
-      "value": "操作系统"
+      "value": "操作系統"
     }
   ],
   "metrics.page-views": [
@@ -751,10 +751,22 @@
       "value": "網頁"
     }
   ],
+  "metrics.query-parameters": [
+    {
+      "type": 0,
+      "value": "Query parameters"
+    }
+  ],
   "metrics.referrers": [
     {
       "type": 0,
       "value": "指入域名"
+    }
+  ],
+  "metrics.screens": [
+    {
+      "type": 0,
+      "value": "屏幕尺寸"
     }
   ],
   "metrics.unique-visitors": [

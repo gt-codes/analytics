@@ -8,18 +8,16 @@ RUN yarn install --frozen-lockfile
 
 # Rebuild the source code only when needed
 FROM node:16-alpine AS builder
-ARG BASE_PATH
-ARG DATABASE_TYPE
-ENV BASE_PATH=$BASE_PATH
-ENV DATABASE_URL "postgresql://umami:umami@db:5432/umami"
-ENV DATABASE_TYPE=$DATABASE_TYPE
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
-# Next.js collects completely anonymous telemetry data about general usage.
-# Learn more here: https://nextjs.org/telemetry
-# Uncomment the following line in case you want to disable telemetry during the build.
+ARG DATABASE_TYPE
+ARG BASE_PATH
+
+ENV DATABASE_TYPE $DATABASE_TYPE
+ENV BASE_PATH $BASE_PATH
+
 ENV NEXT_TELEMETRY_DISABLED 1
 
 RUN yarn build
@@ -29,16 +27,19 @@ FROM node:16-alpine AS runner
 WORKDIR /app
 
 ENV NODE_ENV production
-# Uncomment the following line in case you want to disable telemetry during runtime.
 ENV NEXT_TELEMETRY_DISABLED 1
 
 RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
 
+RUN yarn add npm-run-all dotenv prisma
+
 # You only need to copy next.config.js if you are NOT using the default configuration
-COPY --from=builder /app/next.config.js ./
-COPY --from=builder /app/public ./public
+COPY --from=builder /app/next.config.js .
+COPY --from=builder --chown=nextjs:nodejs /app/public ./public
 COPY --from=builder /app/package.json ./package.json
+COPY --from=builder /app/prisma ./prisma
+COPY --from=builder /app/scripts ./scripts
 
 # Automatically leverage output traces to reduce image size
 # https://nextjs.org/docs/advanced-features/output-file-tracing
@@ -51,4 +52,4 @@ EXPOSE 3000
 
 ENV PORT 3000
 
-CMD ["node", "server.js"]
+CMD ["yarn", "start-docker"]
